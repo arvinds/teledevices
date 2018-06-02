@@ -1,0 +1,174 @@
+
+#content-container {
+  display: flex;
+  flex-direction: column;
+  /* background: #ECE9E6;  /* fallback for old browsers */ */
+  /* background: -webkit-linear-gradient(to right, #FFFFFF, #ECE9E6);  /* Chrome 10-25, Safari 5.1-6 */ */
+  /* background: linear-gradient(to right, #FFFFFF, #ECE9E6); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */ */
+}
+#body-container {
+  text-align: center;
+  flex-direction: column;
+  padding-bottom: 100px;
+}
+
+#hero-container {
+  text-align: center;
+  overflow-y: hidden;
+  height: 375px;
+  margin: 0px 0px 20px 0px;
+  padding: 0px 0px 0px 0px;
+  display: table-cell;
+  vertical-align: middle;
+}
+
+.hero-image {
+  position: relative;
+  height: 500px;
+  top: -240px;
+}
+
+#about-image {
+  background: url('../assets/atlanta_sunset_modified.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-size: 150%;
+  background-position-y: -137px;
+  top: -240px;
+}
+
+#capabilities-image {
+  /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
+  background: url('../assets/cap_hero_6.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-y: -560px;
+}
+
+#careers-image {
+/* https://commons.wikimedia.org/wiki/File:Electrification_project_the_Illinois_Central_Railroad_Company_suburban_service_at_Chicago,_Ill._(1909)_(14738145526).jpg */
+  background: url('../assets/cap_hero_4.jpeg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-position-x: -800px;
+}
+
+.hero-title-text-container {
+  position: relative;
+  top: 100px;
+  z-index: 1;
+  margin: 0 auto;
+  font-size: 130px;
+  height: 200px;
+}
+.products-and-services-container {
+  height: 240px;
+}
+#about-text {
+  width: 33%;
+}
+#capabilities-text {
+  width: 75%;
+  /* padding-top: -5px */
+}
+#careers-text {
+  width: 33%;
+}
+
+#hero-text-bg {
+  position: relative;
+  z-index: 2;
+  height: 100%;
+  width: 100%;
+  opacity: 0.8;
+  background-color: #0f0f0f;
+}
+
+.hero-image-text {
+  position: relative;
+  z-index: 3;
+  color: white;
+  font-weight: bolder;
+  font-family: 'Helvetica', 'Arial';
+}
+
+.body-item {
+  font-size: 20px;
+  text-align: left;
+  margin: 40px 100px 0px 100px;
+  padding: 0px 60px 0px 60px;
+  /* background: white; */
+  /* box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.1), 0 0 30px 0 rgba(0, 0, 0, 0.1); */
+  overflow: hidden;
+}
+
+.body-item-content {
+  display: flex;
+}
+
+.body-item-content-text a{
+  text-decoration: none;
+  color: darkgreen;
+}
+
+#careers-body-item-content-text div {
+  padding-bottom: 50px;
+}
+
+.body-item-title {
+  margin-top: 0px;
+  color: darkgreen;
+  font-size: 35px;
+}
+
+.body-item-title a {
+  color: darkgreen;
+  text-decoration: none;
+}
+
+.body-item-content-image {
+  padding-top: 80px;
+}
+
+@media all and (max-width: 1600px) and (min-width: 1400px) {
+  #about-image {
+    background-size: 150%;
+    background-position-y: -30px;
+  }
+}
+@media all and (max-width: 1400px) and (min-width: 1150px) {
+  #about-image {
+    background-size: 200%;
+    background-position-y: -40px;
+  }
+}
+@media all and (max-width: 1150px) and (min-width: 950px) {
+  #about-image {
+    background-size: 250%;
+    background-position-y: -40px;
+  }
+}
+@media all and (max-width: 950px) and (min-width: 750px) {
+  #about-image {
+    background-size: 400%;
+    background-position-y: -80px;
+  }
+}
+@media all and (max-width: 850px) and (min-width: 0px) {
+  .body-item-content {
+    flex-direction: column;
+  }
+  #careers-body-item-content-text, .body-item-content-text {
+    flex-basis: 50px;
+  }
+  .header-footer {
+    flex-direction: column;
+  }
+  #about-image {
+    background-size: auto;
+    background-position-y: -700px;
+  }
+}
