@@ -85,6 +85,6 @@ function animateShimmer() {
 }
 document.addEventListener("DOMContentLoaded", function() {
   // animateWordFade();
-  animateShimmer();
+  // animateShimmer();
   setTimeout(flyPlane, 500);
 });

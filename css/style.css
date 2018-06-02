@@ -40,7 +40,6 @@ a.nostyle:visited {
   text-align: left;
   width: 120px;
   text-decoration: none;
-  opacity: 0.7;
   color: black;
   padding-bottom: 25px !important;
 }
@@ -57,7 +56,6 @@ a.nostyle:visited {
   cursor: hand;
   text-decoration: none;
   font-weight: 500;
-  opacity: 1;
   color: darkgreen;
 }
 .footer-item {
