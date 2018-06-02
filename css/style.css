@@ -33,7 +33,7 @@ a.nostyle:visited {
 }
 #header {
   border-bottom: 1px solid rgba(0,0,0,0.07);
-  font-size: 24px;
+  font-size: 20px;
   align-items: center;
 }
 .menu-item {
@@ -159,7 +159,7 @@ a.nostyle:visited {
 }
 
 
-/* Page content heros imaegs and text */
+/* Page content hero images and text */
 @media all and (min-width: 1800px) {
   .hero-image-text {
     font-size: 100px;
