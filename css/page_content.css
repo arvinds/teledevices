@@ -133,6 +133,10 @@
   padding-top: 80px;
 }
 
+.tabs-bottom {
+  padding-top: 30px;
+}
+
 @media all and (max-width: 1600px) and (min-width: 1400px) {
   #about-image {
     background-size: 150%;
