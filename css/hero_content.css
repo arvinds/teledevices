@@ -23,13 +23,15 @@
   color:  #066f06;
   font-style: italic;
   font-weight: 600;
-  margin: 45px 10px 0px 30px;
+  margin: 45px 10px 20px 30px;
+  font-family: 'Helvetica';
 }
 .hero-word-container {
   color: #066f06;
   font-weight: 600;
-  padding: 35px 10px 0px 30px;
+  padding: 35px 10px 20px 30px;
   text-align: center;
+  font-family: 'Helvetica';
 }
 #hero-items-grid {
   display: flex;

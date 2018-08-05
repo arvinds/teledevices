@@ -33,7 +33,7 @@ a.nostyle:visited {
 }
 #header {
   border-bottom: 1px solid rgba(0,0,0,0.07);
-  font-size: 20px;
+  font-size: 25px;
   align-items: center;
 }
 .menu-item {
@@ -83,6 +83,7 @@ a.nostyle:visited {
   width: 100%;
   font-size: 15px;
   color: #9a9a9a;
+  position: relative;
 }
 
 #footer {
@@ -141,7 +142,7 @@ a.nostyle:visited {
 }
 @media all and (max-width: 500px) and (min-width: 200px), (max-height: 500px) and (min-height: 200px){
     #logo {
-      width: 200px;
+      width: 300px;
     }
     .hero-word-container, #hero-innovative-solutions {
       font-size: 15px;
@@ -282,9 +283,6 @@ a.nostyle:visited {
   .body-item-content-text {
     flex-basis: 100px;
     padding-bottom: 20px;
-  }
-  #footer-homepage {
-    position: relative;
   }
 }
 
