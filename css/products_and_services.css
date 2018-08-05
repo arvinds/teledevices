@@ -9,7 +9,7 @@
   color: darkgreen !important;
   border-bottom: 2px solid darkgreen !important;
   /* border: none !important; */
-  font-size: 35px;
+  font-size: 38px;
   /* background-color: #f8fbff; */
   padding-bottom: 8px;
 }
@@ -25,7 +25,7 @@
   justify-content: center;
 }
 .tab {
-  font-size: 43px;
+  font-size: 30px;
   display: block;
   margin-bottom: 10px;
   margin-right: 20px;

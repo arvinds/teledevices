@@ -109,11 +109,6 @@
   display: flex;
 }
 
-.body-item-content-text a{
-  text-decoration: none;
-  color: darkgreen;
-}
-
 #careers-body-item-content-text div {
   padding-bottom: 50px;
 }

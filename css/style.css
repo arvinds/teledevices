@@ -42,6 +42,7 @@ a.nostyle:visited {
   text-decoration: none;
   color: black;
   padding-bottom: 25px !important;
+  font-size: 25px;
 }
 .past-performance-menu-item {
   text-align: left;
