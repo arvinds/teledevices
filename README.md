@@ -18,4 +18,6 @@ Initially, can you just add our existing TeleDevices logo from the old website?
 
 Our website is looking good. I also like the clarity and layout of http://atscva.com/Products.aspx If you see any idea we can utilize from atscva website that will be ok.
 
-We are almost done. Let's launch the website by the end of this month.
+We are almost done. Let's buy all the images we need from Adobe. Please get the new credit card number from me since the old card is replaced fraud alert. 
+
+Let's launch the website by the end of this month.
