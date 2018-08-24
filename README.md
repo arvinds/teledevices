@@ -12,7 +12,7 @@ Also, can you add Vendor's web page to the new website and add a link called "Ve
 We need to find either C-130, F-15/F-16, C-5, C-17 or A-10 aircrafts which are used by Robins AFB on our home page. If we can get a C-130 dispensing flares that will be great.
 It will be ideal to add video similar to the link: https://www.youtube.com/watch?v=xGa9vtkTvX4
 
-C-17 Landing video from Adobe can work initially. I have saved a small size video of C-17 landing under assetts
+C-17 Landing video from Adobe can work initially. I have saved a small size video of C-17 landing under assets. Can we keep running that video repeatedly as long as home page is active?
 
 Initially, can you just add our existing TeleDevices logo from the old website?
 
