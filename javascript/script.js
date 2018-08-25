@@ -70,7 +70,7 @@ function animateWordFade() {
 function flyPlane() {
   var video = document.getElementById('hero-video');
   video.play();
-  setTimeout(flyPlane, Math.round(Math.random()*5+10)*1000);
+  setTimeout(flyPlane, Math.round(Math.random()*5)*1000);
 }
 
 function animateShimmer() {
