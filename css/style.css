@@ -32,16 +32,14 @@ a.nostyle:visited {
   flex-wrap: wrap;
 }
 #header {
-  border-bottom: 1px solid rgba(0,0,0,0.07);
+  /* border-bottom: 1px solid rgba(0,0,0,0.07); */
   font-size: 25px;
   align-items: center;
 }
 .menu-item {
-  text-align: left;
   width: 120px;
   text-decoration: none;
   color: black;
-  padding-bottom: 25px !important;
   font-size: 25px;
 }
 .past-performance-menu-item {
@@ -59,11 +57,8 @@ a.nostyle:visited {
   font-weight: 500;
   color: darkgreen;
 }
-.footer-item {
-  margin-left: 30px;
-}
 .menu-item, .footer-item {
-  padding: 22px 50px 15px 0px;
+  padding: 25px 50px 15px 0px;
   font-weight: 500;
 }
 
@@ -111,34 +106,33 @@ a.nostyle:visited {
 }
 #logo {
   width: 300px;
-  content: url('../assets/original_logo_recreation.png');
 }
 
 /* Homepage */
 @media all and (max-width: 1360px) and (min-width: 1100px), (max-height: 1200px) and (min-height: 1100px) {
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 45px;
+      font-size: 40px;
     }
 }
 @media all and (max-width: 1100px) and (min-width: 900px), (max-height: 1100px) and (min-height: 900px){
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 40px;
+      font-size: 35px;
     }
 }
 @media all and (max-width: 900px) and (min-width: 800px), (max-height: 900px) and (min-height: 800px){
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 35px;
+      font-size: 30px;
     }
 }
 
 @media all and (max-width: 800px) and (min-width: 600px), (max-height: 800px) and (min-height: 600px){
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 30px;
+      font-size: 25px;
     }
 }
 @media all and (max-width: 600px) and (min-width: 500px), (max-height: 600px) and (min-height: 500px){
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 20px;
+      font-size: 15px;
     }
 }
 @media all and (max-width: 500px) and (min-width: 200px), (max-height: 500px) and (min-height: 200px){
@@ -146,7 +140,7 @@ a.nostyle:visited {
       width: 300px;
     }
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 15px;
+      font-size: 10px;
     }
 }
 @media all and (max-width: 200px) and (min-width: 0px), (max-height: 200px) and (min-height: 0px){
@@ -154,7 +148,7 @@ a.nostyle:visited {
       width: 70;
     }
     .hero-word-container, #hero-innovative-solutions {
-      font-size: 10px;
+      font-size: 5px;
     }
 }
 
@@ -166,7 +160,7 @@ a.nostyle:visited {
     top: -170px !important;
   }
   .hero-title-text-container {
-    height: 180px;
+    height: 200px;
   }
 }
 @media all and (max-width: 1800px) and (min-width: 1400px) {
@@ -175,7 +169,7 @@ a.nostyle:visited {
     top: -170px !important;
   }
   .hero-title-text-container {
-    height: 180px;
+    height: 200px;
   }
 
 }
@@ -185,7 +179,7 @@ a.nostyle:visited {
     top: -125px !important;
   }
   .hero-title-text-container {
-    height: 160px !important;
+    height: 180px !important;
   }
 }
 @media all and (max-width: 1250px) and (min-width: 1150px) {
@@ -194,7 +188,7 @@ a.nostyle:visited {
     top: -110px !important;
   }
   .hero-title-text-container {
-    height: 140px !important;
+    height: 150px !important;
   }
 }
 @media all and (max-width: 1150px) and (min-width: 955px) {
@@ -203,7 +197,7 @@ a.nostyle:visited {
     top: -95px !important;
   }
   .hero-title-text-container {
-    height: 120px !important;
+    height: 130px !important;
   }
 }
 @media all and (max-width: 955px) and (min-width: 850px) {
@@ -212,7 +206,7 @@ a.nostyle:visited {
     top: -80px !important;
   }
   .hero-title-text-container {
-    height: 100px !important;
+    height: 110px !important;
   }
 }
 @media all and (max-width: 850px) and (min-width: 700px) {
@@ -221,34 +215,34 @@ a.nostyle:visited {
     top: -65px !important;
   }
   .hero-title-text-container {
-    height: 80px !important;
+    height: 90px !important;
   }
 }
 @media all and (max-width: 700px) and (min-width: 600px) {
   .hero-image-text {
-    font-size: 40px;
+    font-size: 50px;
     top: -55px !important;
   }
   .hero-title-text-container {
-    height: 60px !important;
+    height: 70px !important;
   }
 }
 @media all and (max-width: 600px) and (min-width: 500px) {
   .hero-image-text {
-    font-size: 30px;
+    font-size: 40px;
     top: -40px !important;
   }
   .hero-title-text-container {
-    height: 40px !important;
+    height: 50px !important;
   }
 }
 @media all and (max-width: 500px) and (min-width: 0px) {
   .hero-image-text {
-    font-size: 20px;
-    top: -25 !important;
+    font-size: 30px;
+    top: -35px !important;
   }
   .hero-title-text-container {
-    height: 30px !important;
+    height: 40px !important;
   }
 }
 
@@ -267,6 +261,34 @@ a.nostyle:visited {
   #contact-text {
     flex-basis: 2000px;
   }
+  #about-footer-item {
+    margin-left: 100px;
+  }
+  .footer-item {
+    margin-left: 30px;
+  }
+  .menu-item {
+    padding-bottom: 25px !important;
+    text-align: left;
+  }
+  .body-item {
+    margin: 40px 60px 0px 60px;
+    padding: 0px 60px 0px 60px;
+    text-align: left;
+  }
+  #about-text {
+    width: 40%;
+  }
+  #contracts-text {
+    width: 50%;
+  }
+  #capabilities-text {
+    width: 95%;
+    /* padding-top: -5px */
+  }
+  #careers-text {
+    width: 33%;
+  }
 }
 @media all and (max-width: 900px) and (min-width: 0px) {
   .header-footer {
@@ -281,9 +303,45 @@ a.nostyle:visited {
   .tabs, .header-footer, .body-item-content {
     flex-direction: column;
   }
+  .menu-item {
+    font-size: 18px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+  }
   .body-item-content-text {
     flex-basis: 100px;
     padding-bottom: 20px;
+    padding-right: 0px;
+  }
+  #about-footer-item {
+    margin-left: 0px;
+  }
+  .footer-item {
+    margin-left: 0px;
+  }
+  .menu-item {
+    text-align: center;
+  }
+  .body-item {
+    margin: 40px 10px 0px 10px;
+    padding: 0px 5px 0px 5px;
+    text-align: center;
+  }
+  .hero-item-row {
+    visibility: hidden;
+  }
+  #about-text {
+    width: 100%;
+  }
+  #contracts-text {
+    width: 100%;
+  }
+  #capabilities-text {
+    width: 105%;
+    /* padding-top: -5px */
+  }
+  #careers-text {
+    width: 100%;
   }
 }
 

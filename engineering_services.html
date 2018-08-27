@@ -1,5 +1,14 @@
 <html>
   <head>
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script async src="https://www.googletagmanager.com/gtag/js?id=UA-1565875-5"></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag(){dataLayer.push(arguments);}
+      gtag('js', new Date());
+
+      gtag('config', 'UA-1565875-5');
+    </script>
     <title>
       TeleDevices, LLC - Engineering Services
     </title>
@@ -9,10 +18,11 @@
     <link rel="shortcut icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="icon" href="assets/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" id="Lato-css" href="https://fonts.googleapis.com/css?family=Lato%3A1%2C200%2C300%2C400%2C400italic%2C500%2C700%2C700italic&amp;ver=63782226c5924a16aa05faaa68158847" type="text/css" media="all" />
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
   </head>
   <body>
     <div id='header' class="header-footer"> <!-- page header -->
-      <a class='' href='index.html'><img id='logo' src='assets/original_logo_recreation.png' /></a>
+      <a class='' href='index.html'><img id='logo' src='assets/logo_recreated_font_2.png' /></a>
       <a class='menu-item noselect' href='about.html'>About</a>
       <a class='menu-item noselect eng-services-menu-item selected-menu-item' href='engineering_services.html'>Engineering Services</a>
       <a class='menu-item noselect past-performance-menu-item' href='past_performance.html'>Past Performance</a>
@@ -33,13 +43,50 @@
           <div class='body-item-content-text' id="eng-services-content-text">
             <div data-ur-set="tabs">
               <div class="tabs">
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="dmsms" data-ur-state="enabled">DMSMS / Obsolescence Support</div>
+                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="engineering-services" data-ur-state="enabled">Engineering Design</div>
+                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="dmsms">DMSMS / Obsolescence Support</div>
                 <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="test-engineering">Test Engineering</div>
                 <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="manufacturing">Manufacturing Services</div>
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="it-services">Engineering Design</div>
               </div>
               <div id="tab-content-wrapper">
-                <div data-ur-tabs-component="content" data-ur-tab-id="dmsms" data-ur-state="enabled">
+                <div data-ur-tabs-component="content" data-ur-tab-id="engineering-services" data-ur-state="enabled">
+                    <div class='body-item-content'>
+                      <div class='body-item-content-text' id='body-item-content-text'>
+                        TeleDevices, LLC (TDL) has extensive experience designing, developing, and testing state-of-the-art Weapons and Communications/Control Systems 
+                        for electronic warfare, avionics, and ground-based platforms. We perform research, development, design, fabrication, testing, 
+                        and evaluation of electronic, electromechanical, and mechanical partial and full-scale systems.
+                          <br/><br/>
+                        TDL's Engineering Staff’s capabilities cover digital logic (FPGA/VHDL), microprocessors, hardware, 
+                        software, and firmware, Analog/RF circuitry, Modeling and Simulation (M&S) disciplines. Test equipment on-hand includes Spectrum Analyzers, RF Network Analyzers, 
+                        Waveform Generators, Function and Signal Generators, Logic Analyzers, high-speed Digital Oscilloscopes, Digital Signal Processor (DSP), Microprocessor Unit (MPU), and 
+                        Microcontroller Unit (MCU) development systems and a wide range of LabVIEW™ compatible Automated Test Equipment (ATE). 
+                          <br/><br/>
+                        TDL engineers use Mentor Graphics EDA tools to design FPGAs, circuit cards and PCBs. Our mechanical design team is equipped with design and simulation tools such as SolidWorks, 
+                        SolidWorks Simulation, and AutoCAD. 
+                          <br/><br/>
+                        TeleDevices has AS9100D and ISO9001:2015 certified Quality Management System. 
+                        <br/><br/>
+                        We have broad engineering capabilities with demonstrated past performance in:
+                        <ul>
+                          <li> FPGA design using VHDL, digital logic circuits comprising microcontrollers and programmable logic</li>
+                          <li>Embedded software/ OFP Development </li>
+                          <li>Analog/RF Circuit Design/ Simulation</li>
+                          <li>Switch Mode and Linear Power Supply Design</li>
+                          <li>Electromechanical, Mechanical and Optical Engineering</li>
+                          <li>Automatic Test System Development</li>
+                          <li>Acceptance and Qualification Testing including EMI/EMC and Environmental Testing</li>
+                          <li>Techncial Data Package development to meet stringent milirary standards</li>
+                        </ul>
+                        TDL also offers comprehensive Cyber Security support
+                        services including security planning, policy and
+                        procedures development, architecture design and development, intrusion
+                        detection and incident response. Our IT professionals can provide an in-depth assessment and analysis of the cyber security vulnerabilities
+                        that your organization faces and provide solutions that ensure your information is protected from both current and future threats.
+                      </div>
+                      <div class='tab-content-image'><img src="assets/engineering_services.jpeg" width="450px"></img></div>
+                    </div>
+                  </div>
+                <div data-ur-tabs-component="content" data-ur-tab-id="dmsms">
                   <div class='body-item-content'>
                     <div class='body-item-content-text' id='body-item-content-text'>
                       TeleDevices, LLC's (TDL) professionals provide complete sustainment support for avionics, communication systems, electronic
@@ -110,49 +157,12 @@
                     <div class='tab-content-image'><img src="assets/manufacturing.jpeg" width="450px"></img></div>
                   </div>
                 </div>
-                <div data-ur-tabs-component="content" data-ur-tab-id="it-services">
-                  <div class='body-item-content'>
-                    <div class='body-item-content-text' id='body-item-content-text'>
-                      TeleDevices, LLC (TDL) has extensive experience designing, developing, and testing state-of-the-art Weapons and Communications/Control Systems 
-                      for electronic warfare, avionics and ground-based platforms. We perform research, development, design, fabrication, testing, 
-                      and evaluation of electronic, electromechanical, and mechanical partial and full-scale systems.
-                       <br/><br/>
-                      TDL's Engineering Staff’s capabilities cover digital logic (FPGA/VHDL), microprocessors, hardware, 
-                      software, and firmware, Analog/RF circuitry, Modeling and Simulation (M&S) disciplines. Test equipment on-hand includes Spectrum Analyzers, RF Network Analyzers, 
-                      Waveform Generators, Function and Signal Generators, Logic Analyzers, high-speed Digital Oscilloscopes, Digital Signal Processor (DSP), Microprocessor Unit (MPU), and 
-                      Microcontroller Unit (MCU) development systems and a wide range of LabVIEW™ compatible Automated Test Equipment (ATE). 
-                       <br/><br/>
-                      TDL engineers use Mentor Graphics EDA tools to design FPGAs, circuit cards and PCBs. Our mechanical design team is equipped with design and simulation tools such as SolidWorks, 
-                      SolidWorks Simulation, and AutoCAD. 
-                       <br/><br/>
-                      TeleDevices has AS9100D and ISO9001:2015 certified Quality Management System. 
-                      <br/><br/>
-                      We have broad engineering capabilities with demonstrated past performance in:
-                      <ul>
-                        <li> FPGA design using VHDL, digital logic circuits comprising microcontrollers and programmable logic</li>
-                        <li>Embedded software/ OFP Development </li>
-                        <li>Analog/RF Circuit Design/ Simulation</li>
-                        <li>Switch Mode and Linear Power Supply Design</li>
-                        <li>Electromechanical, Mechanical and Optical Engineering</li>
-                        <li>Automatic Test System Development</li>
-                        <li>Acceptance and Qualification Testing including EMI/EMC and Environmental Testing</li>
-                        <li>Techncial Data Package development to meet stringent milirary standards</li>
-                      </ul>
-                     TDL also offers comprehensive Cyber Security support
-                      services including security planning, policy and
-                      procedures development, architecture design and development, intrusion
-                      detection and incident response. Our IT professionals can provide an in-depth assessment and analysis of the cyber security vulnerabilities
-                      that your organization faces and provide solutions that ensure your information is protected from both current and future threats.
-                    </div>
-                    <div class='tab-content-image'><img src="assets/engineering_design.jpg" width="450px"></img></div>
-                  </div>
-                </div>
               </div>
               <div class="tabs tabs-bottom">
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="dmsms" data-ur-state="enabled"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>DMSMS / Obsolescence Support</span></div>
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="test-engineering"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Test Engineering</span></div>
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="manufacturing"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Manufacturing Services</span></div>
-                <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="it-services"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Engineering Design</span></div>
+                  <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="engineering-services" data-ur-state="enabled"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Engineering Design</span></div>
+                  <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="dmsms"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>DMSMS / Obsolescence Support</span></div>
+                  <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="test-engineering"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Test Engineering</span></div>
+                  <div class="tab" data-ur-tabs-component="button" data-ur-tab-id="manufacturing"><span onclick='document.body.scrollTop = document.documentElement.scrollTop = 0;'>Manufacturing Services</span></div>
               </div>
             </div>
           </div>
@@ -161,14 +171,15 @@
       </div>
     </div>
     <div id='footer' class="header-footer"> <!-- page footer -->
-      <a style='margin-left: 100px' class='menu-item noselect' href='about.html'>About</a>
+      <a id='about-footer-item' class='menu-item noselect' href='about.html'>About</a>
       <a class='menu-item noselect eng-services-menu-item selected-menu-item' href='engineering_services.html'>Engineering Services</a>
       <a class='menu-item noselect past-performance-menu-item' href='past_performance.html'>Past Performance</a>
       <a class='menu-item noselect' href='contracts.html'>Contracts</a>
       <a class='menu-item noselect' href='careers.html'>Careers</a>
       <div class='footer-item'>&copy; 2018 TeleDevices, LLC</div>
-      <div class='footer-item'>
+      <div class='footer-item' style="text-align: center">
         <a href='mailto:sales@teledevices.com'><p>Contact Us</p></a>
+        <a href='assets/TeleDevices Terms and Conditions for Commercial Orders.pdf' target='_blank'><p>Vendors</p></a>
       </div>
     </div>
   </body>

@@ -87,5 +87,9 @@ function animateShimmer() {
 document.addEventListener("DOMContentLoaded", function() {
   // animateWordFade();
   // animateShimmer();
-  setTimeout(flyPlane, 500);
+  // setTimeout(flyPlane, 500);
+  var video = document.getElementById('hero-c17-video');
+  video.loop = true;
+  video.preload = 'auto';
+  video.play();
 });
