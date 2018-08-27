@@ -69,8 +69,9 @@ function animateWordFade() {
 
 function flyPlane() {
   var video = document.getElementById('hero-video');
+  video.playbackRate = 0.25;
   video.play();
-  setTimeout(flyPlane, Math.round(Math.random()*5+10)*1000);
+  setTimeout(flyPlane, Math.round(Math.random()*5)*1000);
 }
 
 function animateShimmer() {
