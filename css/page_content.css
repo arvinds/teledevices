@@ -41,6 +41,7 @@
 #capabilities-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   /* background: url('../assets/cap_hero_6.jpg'); */
+    background-size: 50%;
   background: url('../assets/Chip.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
