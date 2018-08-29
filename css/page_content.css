@@ -41,7 +41,7 @@
 #capabilities-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   background: url('../assets/cap_hero_6.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-position-y: -560px;
@@ -50,7 +50,7 @@
 #past-performance-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   background: url('../assets/cap_hero_6.jpg');
-  background-repeat: repeat;
+  background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-position-y: -460px;
