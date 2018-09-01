@@ -58,7 +58,9 @@ a.nostyle:visited {
   color: darkgreen;
 }
 .menu-item, .footer-item {
-  padding: 25px 50px 15px 0px;
+  padding-top: 40px;
+  padding-right: 50px;
+  padding-left: 0px;
   font-weight: 500;
 }
 
@@ -105,7 +107,7 @@ a.nostyle:visited {
   background-color: white;
 }
 #logo {
-  width: 300px;
+  width: 343px
 }
 
 /* Homepage */
