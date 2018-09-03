@@ -60,20 +60,21 @@
 
 #contracts-image {
   /* https://commons.wikimedia.org/wiki/File:Electrification_project_the_Illinois_Central_Railroad_Company_suburban_service_at_Chicago,_Ill._(1909)_(14738145526).jpg */
-  background: url('../assets/adobe_chip_3mb.jpg');
+  background: url('../assets/adobe_chip_3mb_cropped.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-position-x: -460px;
+  background-position-y: 0px;
 }
 
 #careers-image {
   /* https://upload.wikimedia.org/wikipedia/commons/a/ae/Metal_movable_type.jpg */
-  background: url('../assets/scope.jpeg');
+  background: url('../assets/scope-compressed.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-position-y: -513px;
+  background-position-y: 0px;
   background-position-x: -942px;
 }
 
