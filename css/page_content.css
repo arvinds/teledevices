@@ -41,30 +41,31 @@
 #capabilities-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   /* background: url('../assets/cap_hero_6.jpg'); */
-  background: url('../assets/Chip1500.jpg');
+  background: url('../assets/Chip2k.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-position-y: -150px;
+  background-position-y: -290px;
 }
 
 #past-performance-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
-  background: url('../assets/past_performance_1500.jpg');
+  background: url('../assets/past_performance_2mb.jpeg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-size: 150%;
-  background-position-y: -700px;
+  background-position-y: -1100px;
   top: -240px;
 }
 
 #contracts-image {
   /* https://commons.wikimedia.org/wiki/File:Electrification_project_the_Illinois_Central_Railroad_Company_suburban_service_at_Chicago,_Ill._(1909)_(14738145526).jpg */
-  background: url('../assets/adobe_chip_4_1500.jpg');
+  background: url('../assets/adobe_chip_3mb.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
+  background-position-x: -460px;
 }
 
 #careers-image {
