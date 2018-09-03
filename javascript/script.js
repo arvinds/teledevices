@@ -91,5 +91,7 @@ document.addEventListener("DOMContentLoaded", function() {
   var video = document.getElementById('hero-c17-video');
   video.loop = true;
   video.preload = 'auto';
-  video.play();
+  video.addEventListener('canplaythrough',function(){
+    this.play();
+  });
 });
