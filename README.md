@@ -7,3 +7,4 @@ Stock photo websites:
 
 Arvind, I have added Chip3MB high resolution image to Assets
 
+Please keep height of hero container to 450 pixels. 
