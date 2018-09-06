@@ -41,20 +41,20 @@
 #capabilities-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   /* background: url('../assets/cap_hero_6.jpg'); */
-  background: url('../assets/Chip2K.jpg');
+  background: url('../assets/chip_compressed_cropped_3mb.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-position-y: -290px;
+  background-position-y: 0px;
 }
 
 #past-performance-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
-  background: url('../assets/past_performance_compressed_crop.jpg');
+  background: url('../assets/past_performance_compressed_crop_3.jpg');
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
-  background-size: 150%;
+  background-size: 100%;
   background-position-y: 0px;
 }
 
