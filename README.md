@@ -5,10 +5,8 @@ Stock photo websites:
 - https://www.wikipedia.org/
 - https://www.shutterstock.com/
 
-Arvind, I have added Chip3MB high resolution image to Assets
+Arvind, 
+Can we use the following key words for searches:
+Engineering Services, 541330, DMSMS, Obsolescence, reverse engineering, form-fit-function replacement,ALE-47, Test, EW, Avionics, communication, electronic, design, prototype, production, AS9100, FPGA, power supply, US Air Force, military, TeleDevices, TDL, 
 
-Please keep height of hero container to 450 pixels. 
 
-Please adjust background image size for Past Performance. It seems the size of background image is much smaller than others. Also, please adjust its y location to what was last time.
-
-On Thursday morning, please replace the old website with the new one at www.TeleDevices.com !!
