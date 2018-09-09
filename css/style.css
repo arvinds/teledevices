@@ -162,7 +162,7 @@ a.nostyle:visited {
     top: -170px !important;
   }
   .hero-title-text-container {
-    height: 200px;
+    height: 180px;
   }
 }
 @media all and (max-width: 1800px) and (min-width: 1400px) {
@@ -171,7 +171,7 @@ a.nostyle:visited {
     top: -170px !important;
   }
   .hero-title-text-container {
-    height: 200px;
+    height: 180px;
   }
 
 }
@@ -181,7 +181,7 @@ a.nostyle:visited {
     top: -125px !important;
   }
   .hero-title-text-container {
-    height: 180px !important;
+    height: 160px !important;
   }
 }
 @media all and (max-width: 1250px) and (min-width: 1150px) {
@@ -190,7 +190,7 @@ a.nostyle:visited {
     top: -110px !important;
   }
   .hero-title-text-container {
-    height: 150px !important;
+    height: 130px !important;
   }
 }
 @media all and (max-width: 1150px) and (min-width: 955px) {
@@ -199,7 +199,7 @@ a.nostyle:visited {
     top: -95px !important;
   }
   .hero-title-text-container {
-    height: 130px !important;
+    height: 110px !important;
   }
 }
 @media all and (max-width: 955px) and (min-width: 850px) {
@@ -208,7 +208,7 @@ a.nostyle:visited {
     top: -80px !important;
   }
   .hero-title-text-container {
-    height: 110px !important;
+    height: 80px !important;
   }
 }
 @media all and (max-width: 850px) and (min-width: 700px) {
@@ -217,7 +217,7 @@ a.nostyle:visited {
     top: -65px !important;
   }
   .hero-title-text-container {
-    height: 90px !important;
+    height: 70px !important;
   }
 }
 @media all and (max-width: 700px) and (min-width: 600px) {
@@ -226,7 +226,7 @@ a.nostyle:visited {
     top: -55px !important;
   }
   .hero-title-text-container {
-    height: 70px !important;
+    height: 50px !important;
   }
 }
 @media all and (max-width: 600px) and (min-width: 500px) {
@@ -235,7 +235,7 @@ a.nostyle:visited {
     top: -40px !important;
   }
   .hero-title-text-container {
-    height: 50px !important;
+    height: 40px !important;
   }
 }
 @media all and (max-width: 500px) and (min-width: 0px) {
@@ -279,13 +279,13 @@ a.nostyle:visited {
     text-align: left;
   }
   #about-text {
-    width: 40%;
+    width: 33%;
   }
   #contracts-text {
-    width: 50%;
+    width: 33%;
   }
   #capabilities-text {
-    width: 95%;
+    width: 85%;
     /* padding-top: -5px */
   }
   #careers-text {
@@ -334,16 +334,23 @@ a.nostyle:visited {
   }
   #about-text {
     width: 100%;
+    top: 100px;
   }
   #contracts-text {
     width: 100%;
+    top: 100px;
   }
   #capabilities-text {
     width: 105%;
+    top: 100px;
     /* padding-top: -5px */
   }
   #careers-text {
     width: 100%;
+    top: 100px;
+  }
+  #about-image, #contracts-image, #careers-image, #past-performance-image, #capabilities-image {
+    background-attachment:  scroll !important;
   }
 }
 

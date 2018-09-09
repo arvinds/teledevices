@@ -15,7 +15,7 @@
 #hero-container {
   text-align: center;
   overflow-y: hidden;
-  height: 375px;
+  height: 330px;
   margin: 0px 0px 20px 0px;
   padding: 0px 0px 0px 0px;
   display: table-cell;
@@ -30,19 +30,17 @@
 
 #about-image {
   background: url('../assets/atlanta_sunset_modified_compressed.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
   background-size: 150%;
-  background-position-y: -137px;
+  background-position-y: -1000px;
   top: -240px;
 }
 
 #capabilities-image {
-  /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
-  /* background: url('../assets/cap_hero_6.jpg'); */
   background: url('../assets/chip_compressed_cropped_3mb.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
   background-position-y: 0px;
@@ -51,7 +49,7 @@
 #past-performance-image {
   /* https://en.wikipedia.org/wiki/Electronics#/media/File:Arduino_ftdi_chip-1.jpg */
   background: url('../assets/past_perf_2.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
   background-position-y: -60px;
@@ -60,7 +58,7 @@
 #contracts-image {
   /* https://commons.wikimedia.org/wiki/File:Electrification_project_the_Illinois_Central_Railroad_Company_suburban_service_at_Chicago,_Ill._(1909)_(14738145526).jpg */
   background: url('../assets/adobe_chip_3mb_cropped.jpeg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
   background-position-x: -460px;
@@ -70,7 +68,7 @@
 #careers-image {
   /* https://upload.wikimedia.org/wikipedia/commons/a/ae/Metal_movable_type.jpg */
   background: url('../assets/scope-compressed.jpg');
-  background-repeat: no-repeat;
+  background-repeat: repeat-x;
   background-attachment: fixed;
   background-position: center;
   background-position-y: 0px;
@@ -79,13 +77,13 @@
 
 .hero-title-text-container {
   position: relative;
-  top: 80px;
+  top: 100px;
   z-index: 1;
   margin: 0 auto;
   font-size: 130px;
 }
-.products-and-services-container {
-  height: 240px;
+.container-limiter {
+  height: 180px;
 }
 
 #hero-text-bg {
@@ -143,6 +141,23 @@
   padding-top: 80px;
 }
 
+@media all and (max-width: 4000px) and (min-width: 3000px) {
+  #about-image {
+    background-position-y: -380px;
+  }
+}
+
+@media all and (max-width: 3000px) and (min-width: 2000px) {
+  #about-image {
+    background-position-y: -250px;
+  }
+}
+
+@media all and (max-width: 2000px) and (min-width: 1600px) {
+  #about-image {
+    background-position-y: -100px;
+  }
+}
 @media all and (max-width: 1600px) and (min-width: 1400px) {
   #about-image {
     background-size: 150%;
