@@ -159,7 +159,7 @@ a.nostyle:visited {
 @media all and (min-width: 1800px) {
   .hero-image-text {
     font-size: 100px;
-    top: -170px !important;
+    top: -145px !important;
   }
   .hero-title-text-container {
     height: 180px;
@@ -168,7 +168,7 @@ a.nostyle:visited {
 @media all and (max-width: 1800px) and (min-width: 1400px) {
   .hero-image-text {
     font-size: 100px;
-    top: -170px !important;
+    top: -145px !important;
   }
   .hero-title-text-container {
     height: 180px;
